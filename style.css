@@ -1,35 +1,66 @@
-.para, 
-li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(214, 30, 211);
-}
-
-div .para {
+.div1 .para {
     font-size: 16px;
     color:rgb(10, 10, 25);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
-div .ul {
+.div1{
+    width: 800px;
+    text-align: center;
+}
+
+.div1 .unordered {
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div .ol {
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.div1 ul li {
+    width: 800px;
+    color: grey;
 }
 
-div .heading1 {
-    font-size:28px;
-    color: rgb(240, 92, 92);
+.div1 .heading1 {
+    font-size:40px;
+    width: 800px;
+    text-align: center;
 }
 
-div .heading2 {
+.image1 {
+    width: 800px;
+}
+
+.div1 .heading2 {
     font-size:20px;
     color:rgb(180, 206, 10);
 }
 
-div a {
+.ordered{
+
+}
+
+.div2 .top{
+    display:block;
+}
+
+.div1 a {
     font-size: 18px;
+}
+
+
+.div2{
+    width: 800px;
+    text-align: center;
+}
+
+.div2 .image2{
+    width:500px;
+}
+
+.div2 .unordered {
+    text-align: center;
+}
+
+.div2 .unordered .li{
+    display: inline-block;
 }
